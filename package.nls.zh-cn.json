@@ -1,0 +1,4 @@
+{
+  "displayName": "Portless",
+  "description": "自动为 devcontainer 转发端口注册 portless alias"
+}

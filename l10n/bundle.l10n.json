@@ -1,0 +1,4 @@
+{
+  "Failed to parse devcontainer.json: {0}": "Failed to parse devcontainer.json: {0}",
+  "portless alias failed for port {0}: {1}": "portless alias failed for port {0}: {1}"
+}

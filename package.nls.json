@@ -1,0 +1,4 @@
+{
+  "displayName": "Portless",
+  "description": "Automatically register portless aliases for devcontainer forwarded ports"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "vscode-portless",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "latel",
+  "extensionKind": [
+    "ui"
+  ],
+  "enabledApiProposals": [
+    "tunnels"
+  ],
+  "l10n": "./l10n",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "portless",
+    "devcontainer",
+    "tunnel",
+    "localhost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latel/vscode-portless.git"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "package": "vite build",
+    "lint": "eslint src",
+    "changeset": "changeset",
+    "changeset:version": "changeset version"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.0",
+    "@types/vscode": "^1.97.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vscode/vsce": "^3.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}

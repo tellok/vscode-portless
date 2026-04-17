@@ -1,0 +1,4 @@
+{
+  "Failed to parse devcontainer.json: {0}": "devcontainer.json 解析失败：{0}",
+  "portless alias failed for port {0}: {1}": "端口 {0} 的 portless alias 注册失败：{1}"
+}
